@@ -1,0 +1,15 @@
+*::-webkit-scrollbar{
+    display: none;
+  }
+
+.navbar::-webkit-scrollbar{
+    overflow: hidden;
+  }
+.list_item:hover{
+    background:#8f28ab44;
+    border-radius: 20px;
+}
+.list_item:focus .list_item::active{
+    background:#8f28ab44;
+    border-radius: 20px;
+}
